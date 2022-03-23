@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 맑은고딕;
+    color: #333333;   /* 컬러 가이드: 기본 텍스트의 색 */
+}
+body{
+    width: 1000px;  /* 와이어프레임 너비 */
+    height: 650px;  /* 와이어프레임 B+C+D 높이 */
+    background-color: #ffffff;   /* 컬러 가이드: 배경색*/
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+header {   /* A영역: 와외어프레임 왼쪽 영역 */
+    float:left;
+}
+.top {    /* 로고+메뉴 영역 */ 
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu{
+    float: left;
+}
+.imgslide {    /* B영역: 이미지 슬라이드 영역 */
+    float: right;
+    width: 800px;
+    height: 350px;
+}
+.contents {    /* c영역: 공지사항+갤러리+바로가기 영역 */
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+.notice {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.gallery {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.shortcut {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+footer {    /* D영역: 와이어프레임 오른쪽 하단 영역 */
+    float: right;
+}
+.bottom {    /* 로고+Copyright+패밀리사이트 영역 */
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+.btlogo {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.copy {
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+.familysite {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
